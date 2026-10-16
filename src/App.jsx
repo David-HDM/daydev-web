@@ -141,7 +141,10 @@ function Footer() {
     <footer className="footer">
       <p>© {new Date().getFullYear()} {brand.name}. {brand.tagline}.</p>
       <p>
-        <a href={brand.instagram}>Instagram</a> <a href={brand.github}>GitHub</a>
+        {/* Quitar comentario cuando haya redes sociales activas. Por ahora solo GitHub. 
+        <a href={brand.instagram}>Instagram</a>
+        */}
+        <a href={brand.github}>GitHub</a>
       </p>
     </footer>
   );

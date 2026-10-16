@@ -2,10 +2,9 @@
 export const brand = {
   name: "DayDev",
   tagline: "Empieza en la web, impulsa tu marca",
-  email: "hola@tudominio.com",        // EDITAR
-  whatsapp: "520000000000",            // EDITAR: código de país + número, sin signos
-  instagram: "https://instagram.com/daydev", // EDITAR
-  github: "https://github.com/tu-usuario",   // EDITAR
+  email: "davidhdm29@gmail.com",
+  whatsapp: "+524445226315",    
+  github: "https://github.com/David-HDM", 
   agenda: "https://cal.com/daydev/descubrimiento",
   formulario: "https://forms.gle/vH7XSPUdowhJv6tAA",
 };
@@ -17,7 +16,7 @@ export const hero = {
 };
 
 export const services = [
-  { title: "Sitio web informativo", text: "Presenta tu negocio, tus servicios y tus datos de contacto en una página clara y adaptada a celular." },
+  { title: "Sitio web informativo", text: "Presenta tu negocio, tus servicios y tus datos de contacto en una página clara y moderna." },
   { title: "Aplicaciones web", text: "Herramientas a la medida: formularios, paneles, catálogos y sistemas con base de datos." },
   { title: "Mejoras y mantenimiento", text: "Actualizamos contenido, corregimos errores y mantenemos tu sitio en línea y seguro." },
 ];
@@ -31,14 +30,14 @@ export const process = [
 ];
 
 export const plans = [
-  { name: "Inicio", price: "$0000", note: "Pago único", items: ["Página de una sola sección larga", "Diseño adaptable a celular", "Botón de WhatsApp y correo", "Publicación en línea"] },
-  { name: "Crece", price: "$0000", note: "Pago único", featured: true, items: ["Hasta 5 secciones o páginas", "Textos revisados", "Optimización para buscadores", "Formulario de contacto", "1 mes de ajustes"] },
+  { name: "Inicio", price: "$4000", note: "Pago único", items: ["Página de una sola sección larga", "Diseño adaptable a celular", "Botón de WhatsApp y correo", "Publicación en línea"] },
+  { name: "Crece", price: "$8000", note: "Pago único", featured: true, items: ["Hasta 5 secciones o páginas", "Textos revisados", "Optimización para buscadores", "Formulario de contacto", "1 mes de ajustes"] },
   { name: "Impulsa", price: "A cotizar", note: "Según el alcance", items: ["Aplicación web a la medida", "Base de datos y usuarios", "Panel de administración", "Soporte continuo"] },
 ];
 
 export const about = {
   title: "Quién está detrás de DayDev",
-  text: "Soy desarrollador web y trabajo directamente contigo, sin intermediarios. Construyo con herramientas modernas y abiertas, y te explico cada decisión en lenguaje sencillo.",
+  text: "Soy desarrollador web y trabajo directamente contigo, sin intermediarios. Construyo con herramientas modernas y abiertas, y te explico cada decisión en un lenguaje que tú puedas entender.",
   stack: ["React", "Next.js", "Node.js", "Python", "PostgreSQL", "Supabase", "Git y GitHub", "Netlify"],
 };
 
