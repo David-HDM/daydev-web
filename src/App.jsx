@@ -129,6 +129,7 @@ function Contact() {
       <p className="sub">Respondemos en un día hábil.</p>
       <div className="actions">
         <a className="btn" href={brand.agenda}>Agendar llamada de 20 min</a>
+        <a className="btn" href={brand.formulario}>Llenar formulario</a>
         <a className="btn btn-outline" href={wa("Hola, quiero cotizar un sitio web con DayDev.")}>Escribir por WhatsApp</a>
         <a className="btn btn-outline" href={`mailto:${brand.email}?subject=Cotización de sitio web`}>Enviar correo</a>
       </div>
