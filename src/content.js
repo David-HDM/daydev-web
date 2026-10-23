@@ -7,11 +7,15 @@ export const brand = {
   github: "https://github.com/David-HDM", 
   agenda: "https://cal.com/daydev/descubrimiento",
   formulario: "https://forms.gle/vH7XSPUdowhJv6tAA",
+  facebook: "https://www.facebook.com/profile.php?id=61595272842235",
+  instagram: "https://www.instagram.com/daydev18/",
+  linkedin: "https://www.linkedin.com/company/daydev-web/",
+  sede: "https://maps.app.goo.gl/rgqBuLWiwPYvVPSA8"
 };
 
 export const hero = {
   title: "Tu negocio, visible desde el primer día",
-  text: "Diseñamos y publicamos sitios web claros, rápidos y fáciles de encontrar para negocios que están empezando.",
+  text: "Diseñamos y publicamos sitios web claros, rápidos y fáciles de encontrar para negocios que están empezando. Empresa 100% mexicana y orgullosamente potosina.",
   cta: "Cotiza tu sitio",
 };
 
@@ -30,8 +34,8 @@ export const process = [
 ];
 
 export const plans = [
-  { name: "Inicio", price: "$4000", note: "Pago único", items: ["Página de una sola sección larga", "Diseño adaptable a celular", "Botón de WhatsApp y correo", "Publicación en línea"] },
-  { name: "Crece", price: "$8000", note: "Pago único", featured: true, items: ["Hasta 5 secciones o páginas", "Textos revisados", "Optimización para buscadores", "Formulario de contacto", "1 mes de ajustes"] },
+  { name: "Inicio", price: "$1999 MXN", note: "Pago único", items: ["Página de una sola sección larga", "Diseño adaptable a celular", "Botón de WhatsApp y correo", "Publicación en línea"] },
+  { name: "Crece", price: "$2499 MXN", note: "Pago único", featured: true, items: ["Hasta 5 secciones o páginas", "Textos revisados", "Optimización para buscadores", "Formulario de contacto", "1 mes de ajustes"] },
   { name: "Impulsa", price: "A cotizar", note: "Según el alcance", items: ["Aplicación web a la medida", "Base de datos y usuarios", "Panel de administración", "Soporte continuo"] },
 ];
 
