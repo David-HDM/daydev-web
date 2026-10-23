@@ -129,7 +129,7 @@ function Contact() {
       <p className="sub">Respondemos en un día hábil.</p>
       <div className="actions">
         <a className="btn" href={brand.agenda}>Agendar llamada de 20 min</a>
-        <a className="btn" href={brand.formulario}>Llenar formulario</a>
+        <a className="btn btn-outline" href={brand.formulario}>Llenar formulario</a>
         <a className="btn btn-outline" href={wa("Hola, quiero cotizar un sitio web con DayDev.")}>Escribir por WhatsApp</a>
         <a className="btn btn-outline" href={`mailto:${brand.email}?subject=Cotización de sitio web`}>Enviar correo</a>
       </div>
@@ -142,9 +142,9 @@ function Footer() {
     <footer className="footer">
       <p>© {new Date().getFullYear()} {brand.name}. {brand.tagline}.</p>
       <p>
-        {/* Quitar comentario cuando haya redes sociales activas. Por ahora solo GitHub. 
+        <a href={brand.facebook}>Facebook</a> 
         <a href={brand.instagram}>Instagram</a>
-        */}
+        <a href={brand.linkedin}>LinkedIn</a>
         <a href={brand.github}>GitHub</a>
       </p>
     </footer>
