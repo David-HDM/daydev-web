@@ -140,7 +140,7 @@ function Contact() {
 function Footer() {
   return (
     <footer className="footer">
-      <p>© {new Date().getFullYear()} {brand.name}. {brand.tagline}.</p>
+      <p>© {new Date().getFullYear()} {brand.name}. {brand.tagline}. |<a href={brand.sede}>📍 Villa de Pozos, San Luis Potosí</a></p>
       <p>
         <a href={brand.facebook}>Facebook</a> 
         <a href={brand.instagram}>Instagram</a>

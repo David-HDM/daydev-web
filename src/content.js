@@ -9,12 +9,13 @@ export const brand = {
   formulario: "https://forms.gle/vH7XSPUdowhJv6tAA",
   facebook: "https://www.facebook.com/profile.php?id=61595272842235",
   instagram: "https://www.instagram.com/daydev18/",
-  linkedin: "https://www.linkedin.com/company/daydev-web/"
+  linkedin: "https://www.linkedin.com/company/daydev-web/",
+  sede: "https://maps.app.goo.gl/rgqBuLWiwPYvVPSA8"
 };
 
 export const hero = {
   title: "Tu negocio, visible desde el primer día",
-  text: "Diseñamos y publicamos sitios web claros, rápidos y fáciles de encontrar para negocios que están empezando.",
+  text: "Diseñamos y publicamos sitios web claros, rápidos y fáciles de encontrar para negocios que están empezando. Empresa 100% mexicana y orgullosamente potosina.",
   cta: "Cotiza tu sitio",
 };
 
